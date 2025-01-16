@@ -8,6 +8,11 @@
   --secondary-color: #1aa762;
   --white-color: #fff;
 }
+.row {
+  width: 100% !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
 input:focus {
   outline: none !important;
 }
