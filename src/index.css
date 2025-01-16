@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #032541;
+  --secondary-color: #1aa762;
+  --white-color: #fff;
+}
+input:focus {
+  outline: none !important;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.theButton:disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* MediaQuery */
+@media (max-width: 776px) {
+  header .row .rightSide {
+    gap: 15px !important;
+  }
+  header ul li a {
+    font-size: 15px !important;
+  }
+}
+.AddMovieSec input::placeholder {
+  color: rgb(163, 162, 162);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
